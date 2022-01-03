@@ -43,9 +43,10 @@ a:hover{
     font-size: 20px;
     text-decoration: underline;
 }
-@media screen {
-    
+#burger {
+    display:none ;
 }
+
 /* --------------------------------Section 1---------------------------------------------*/
 ul{   
     display: flex;

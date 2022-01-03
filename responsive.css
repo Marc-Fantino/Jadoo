@@ -1,7 +1,38 @@
-@media  (max-with750px){
+@media screen and (max-width :950px){
     body{ background-color: blue;
+        margin: 0;
      }
-     #menu-bouton-1{
+     .menu-bouton{
          display: none;
      }
-}
+    ul #burger{
+        display: block;
+    }
+    .conteneur-titres{
+        text-align: center;
+        align-items: center;
+    }
+  }
+@media screen and (max-width :360px){
+    body{ background-color: red;
+        margin: 0;
+        padding: 0;
+     }
+     .menu-bouton{
+         display: none;
+     }
+     #section-1{
+         padding: 84px;
+    }
+   ul #burger{
+        display: block;
+    }
+    .block_1{
+        text-align: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    #carte-parent{
+        display: block;
+    }
+ }
