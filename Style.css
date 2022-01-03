@@ -43,6 +43,9 @@ a:hover{
     font-size: 20px;
     text-decoration: underline;
 }
+@media screen {
+    
+}
 /* --------------------------------Section 1---------------------------------------------*/
 ul{   
     display: flex;
@@ -288,9 +291,6 @@ bottom: 535px;
     font-weight: normal;
     font-size: 10px;
     font-style: normal;
-}
-.ubereate img:hover{
-
 }
 /*----------------section-5*-------------------------*/
 #section-5{
