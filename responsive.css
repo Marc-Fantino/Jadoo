@@ -1,0 +1,7 @@
+@media  (max-with750px){
+    body{ background-color: blue;
+     }
+     #menu-bouton-1{
+         display: none;
+     }
+}
