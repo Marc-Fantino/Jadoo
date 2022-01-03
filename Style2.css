@@ -1,0 +1,415 @@
+/* --------------------------------bandeau---------------------------------------------*/
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+nav{
+    margin-right: 5%;
+}
+ul{   
+    display: flex;
+}
+li{
+    display: flex;
+    list-style-type: none;
+    margin: 10px ;
+}
+ul li a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+}
+.logo {
+    background-color: white;
+    width: 100px;
+    margin-left: 5%;
+    display: flex;
+    justify-content:space-around;
+}
+nav{
+    margin-right: 5%;
+}
+a:hover{
+    color: orange;
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* --------------------------------Section 1---------------------------------------------*/
+ul{   
+    display: flex;
+}
+li{
+    display: flex;
+    list-style-type: none;
+    margin: 10px ;
+}
+ul li a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+}
+.logo {
+    background-color: white;
+    width: 100px;
+    margin-left: 5%;
+    display: flex;
+    justify-content:space-around;
+}
+h1{
+    font-size: 84px;
+    font-family:"volkhov-regular";
+    color: white;
+    margin: 0px;     
+}
+h3{
+    color: rgb(156, 82, 74);
+    font-size: 20px;
+    font-family: "poppins-bold";
+}
+h5{
+
+    color:#BFC0CD;
+    font-size:  16px;
+    font-family: "poppins-regular";
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+}
+.trait-rose img{
+    position: absolute;
+    bottom: 25px;
+}
+.btn-carte {
+    background-color: #f1a501;
+    border :none;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+#section-1{
+    background-image:url("img/illustration_principale.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat:no-repeat ;
+}
+.block_1{
+    margin-left: 80px;
+    width: 500px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+/*---------------------------------Section-2---------------------------------------------------*/
+#section-2{
+    display: block;
+    text-align: center;
+    background: url(img/decor_1.svg) no-repeat;
+    background-position: 98% 2%;
+    width: 100%;
+}
+/*------bandeau_image_étoile--------------------------------------------------------------*/
+h4{
+    font-size: 18px;
+    font-family: "poppins-regular";
+    color: #5e6282;
+    margin-bottom: 70px;
+}
+h2{
+    font-size: 50px;
+    font-family: "volkhov-bold";
+    margin-top: 70px;
+}
+#section-2 .carte-parent{
+    display: flex;
+    justify-content: center;
+}
+#section-2 .carte_sous_enfant{
+    margin: 0px;
+}
+.carte-parent{ 
+    padding: 10% 30% 2% 30%;
+}
+.carte_sous_enfant{
+    width: auto;
+}
+.carte_sous_enfant :hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px #BFC0CD;
+    
+}
+.plat{
+    width: 280px;
+    border-radius: 24px;
+    box-shadow: 9px 7px 9px 1px #BFC0CD;
+    text-align: center;
+}
+figcaption{
+    padding: 10px;    
+    }
+.carte_conteneur_enfant{
+    display: flex;
+    justify-content: center;
+}
+.carte_sous_enfant img{
+    max-width: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    margin: 0px;
+    border-top: 0px;
+}
+figcaption{
+    color: #5e6282;
+}
+.carte figcaption{
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 20px;
+    box-shadow: darkgrey 9px 7px 9px 1px;
+}
+article {
+    display: block;
+}
+.align_maki{
+  
+    width: 190px;
+    border-radius: 24px; 
+}
+
+.bouton-jaune {
+    background-color: #f1a501;
+    border :none;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+/*------------------------------Section-3-------------------------------------------*/
+#section-3{
+    background-image: url(img/illustration_chef.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat:no-repeat ;
+}
+.lien-video{
+ display: flex;
+}
+#video img {
+    border-radius: 15px;
+    margin-left: 0px;   
+}
+#video-3{
+    display: flex;
+    background-color: rgb(245, 235, 235);
+    border-radius: 50%;
+    position: absolute;
+    border: solid 4px white;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+#video-3 :hover{
+    cursor: pointer;
+}
+
+.text_du_chef{
+    padding: 20px 0px 20px 0px;
+}
+.text_du_chef h1{
+    font-size: 80px;
+    font-family: "volkhov-bold";
+}
+
+.text_du_chef h5{
+    font-size: 500 14px/30px;
+    font-family: "poppins-regular";
+    color: white;
+}
+.text_du_chef img{
+    width: 220px;
+}
+.trait-rose{
+bottom: 535px;
+}
+.photo_sup{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: -75px;
+    z-index: 5;
+}
+/*--------------------------------section-4------------------------------------------------*/
+#section-4{
+    background-image: url(img/illustration_commander.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 1000px;
+}
+.ubereate{
+    margin-top: 600px;
+    padding-top: 30px;
+ 
+}
+.ubereate-1{
+    display: flex;
+    
+    align-items: center;
+}
+.ubereate-2{
+    display: flex;
+    
+    align-items: center;
+}
+.text-logo-1{
+    padding: 10px;
+    
+}
+.ubereate-3{
+    display: flex;
+    align-items: center;
+}
+
+.titre {
+    font-family: "poppins-regular";
+    font-weight: bold;
+    color: black;
+} 
+.ubereate p {
+    font-family: "poppins-regular";
+    font-weight: normal;
+    font-size: 10px;
+    font-style: normal;
+}
+.ubereate img:hover{
+
+}
+/*----------------section-5*-------------------------*/
+#section-5{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+.boite-fomulaire-parent{
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 35px;
+ display: flex;
+ overflow: hidden;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ height: 500px;
+ box-shadow: 4px 2px 8px 2px;
+}
+.boite-droite{
+    width: 50%;
+    background: url("img/illustration_formulaire.jpg");
+    background-size:cover ;
+}
+.boite-gauche{
+    margin-left: 5px;
+    width: 50%;
+    background-color: white;
+    border-top-left-radius: 35px;
+    border-end-start-radius: 35px; 
+}
+
+.boite-droite img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+} 
+.nom-prenom{
+    
+    font-size: 15px;
+    display: flex;
+}
+.mail{
+    margin-top: 40px;
+    width: 100%;   
+}
+form{
+    margin-top: 20px;
+}
+#Nom{ 
+    border: none;
+    border-top:1px solid white ;
+    border-bottom:1px dotted;
+}
+#Mail{ 
+    
+    border: none;
+    width: 50%;
+    border-bottom:1px dotted;
+}
+#Message{ 
+    border: none;
+    border-top:1px solid white ;
+    border-bottom:1px dotted;
+    width: 50%;
+}
+.btn-envoyer{
+   margin-top: 100px;
+   margin-left: 100px;
+   background-color: rgb(2, 97, 240);
+    color: white;
+}
+/*-------------------------Footer------------------------------------------*/
+
+footer{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+
+.footer-centre{ 
+    display: flex;
+    justify-content: space-between
+    
+}
+.centre-droit{
+    justify-content: start;
+}
+.centre-gauche{
+    justify-content: space-between;
+}
+.btn-google{
+    background-color: black;
+    border :none;
+    border-radius: 10px;
+    color: white ;
+    font-size: 10px;
+    display: flex;
+}
+.btn-apple{
+    border-radius: 10px;
+    background-color: black;
+    color: white ;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.btn-apple img{
+    text-align: center;
+    width: 20px;
+}
+.btn-google img{ 
+    text-align: center;
+    width: 20px;
+}
