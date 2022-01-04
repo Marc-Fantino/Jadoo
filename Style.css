@@ -68,18 +68,18 @@ ul li a {
     display: flex;
     justify-content:space-around;
 }
-h1{
+.titre-h1{
     font-size: 84px;
     font-family:"volkhov-regular";
     color: white;
     margin: 0px;     
 }
-h3{
+.titre-h3{
     color: rgb(156, 82, 74);
     font-size: 20px;
     font-family: "poppins-bold";
 }
-h5{
+.titre-h5{
 
     color:#BFC0CD;
     font-size:  16px;
@@ -107,6 +107,7 @@ button:hover{
     background-size: cover;
     width: 100%;
     background-repeat:no-repeat ;
+    background-position: center center;
 }
 .block_1{
     margin-left: 80px;
@@ -137,6 +138,7 @@ h2{
 #section-2 .carte-parent{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 #section-2 .carte_sous_enfant{
     margin: 0px;
@@ -164,6 +166,7 @@ figcaption{
 .carte_conteneur_enfant{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .carte_sous_enfant img{
     max-width: 100%;

@@ -1,38 +1,106 @@
-@media screen and (max-width :950px){
-    body{ background-color: blue;
-        margin: 0;
+
+ @media screen and (max-width :1281px){ 
+  
+ }
+
+ @media screen and (max-width :1025px){ 
+  
+     #section-5{
+         padding-top: 100px;
      }
+     .boite-fomulaire-parent{
+         width: 80%;
+     }
+     #section-4{
+         padding-top: 600px;
+     }
+}
+@media screen and (max-width :800px){ 
+   
+     .text_du_chef h1{
+         font-size: 64px;
+     }
+   
+}
+@media screen and (max-width :600px){ 
+  
+     .titre-h1{
+        font-size: 64px;
+    }
+     .menu-bouton{
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+}
+@media screen and (max-width :320px){ 
+   
      .menu-bouton{
          display: none;
      }
-    ul #burger{
-        display: block;
-    }
-    .conteneur-titres{
-        text-align: center;
-        align-items: center;
-    }
-  }
-@media screen and (max-width :360px){
-    body{ background-color: red;
-        margin: 0;
-        padding: 0;
+     #burger{
+         display: block;
      }
-     .menu-bouton{
+     .photo_sup{
+         display: none;
+     }
+     .boite-droite{
          display: none;
      }
      #section-1{
-         padding: 84px;
+      
+        margin: 0%;
+        padding: 0;
+    
+     }
+     .titre-h3{
+        font-size: 30px;
+        color:salmon;
     }
-   ul #burger{
+    .titre-h5{
+        font-size: 30px;
+        color: salmon;
+        
+        
+        
+    }
+    .titre-h1{
+        font-size: 30px;
+    }
+     #section-2{
+         background-position: 98% 0;
+         text-align: left;
+     }
+     .text_du_chef_h1{
+        font-size: 30px;
+        text-align: left;
+        color: white;
+    }
+    .text_du_chef_h5{
+        font-size: 25px;
+        text-align: left;
+        justify-content: left;
+    }
+    footer{
         display: block;
+        background-color: white;     
+        }
+    .footer-centre{ 
+        display: block;   
     }
-    .block_1{
-        text-align: center;
-        align-items: center;
-        margin-left: 0;
+    .trait-rose{
+        display: none;
     }
-    #carte-parent{
-        display: block;
+    h4{
+        font-size: 30px;
+        color: #5e6282;
+        margin-bottom: 70px;
     }
- }
+    h2{
+        font-size: 30px;
+        font-family: "volkhov-bold";
+        margin-top: 140px;
+    }
+}
+
